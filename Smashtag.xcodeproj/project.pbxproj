@@ -17,6 +17,7 @@
 		4DC7B8551AF6B8B3004BBB9D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8511AF6B8B3004BBB9D /* Tweet.swift */; };
 		4DC7B8561AF6B8B3004BBB9D /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8521AF6B8B3004BBB9D /* TwitterRequest.swift */; };
 		4DC7B8571AF6B8B3004BBB9D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8531AF6B8B3004BBB9D /* User.swift */; };
+		4DC7B8591AF6C124004BBB9D /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4DC7B8511AF6B8B3004BBB9D /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		4DC7B8521AF6B8B3004BBB9D /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
 		4DC7B8531AF6B8B3004BBB9D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				4DC7B84F1AF6B8B3004BBB9D /* Twitter */,
 				4DC7B8281AF6B24E004BBB9D /* ViewController.swift */,
 				4DC7B82A1AF6B24E004BBB9D /* Main.storyboard */,
+				4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */,
 				4DC7B8241AF6B24E004BBB9D /* Supporting Files */,
 			);
 			path = Smashtag;
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC7B8591AF6C124004BBB9D /* TweetTableViewController.swift in Sources */,
 				4DC7B8291AF6B24E004BBB9D /* ViewController.swift in Sources */,
 				4DC7B8561AF6B8B3004BBB9D /* TwitterRequest.swift in Sources */,
 				4DC7B8571AF6B8B3004BBB9D /* User.swift in Sources */,
