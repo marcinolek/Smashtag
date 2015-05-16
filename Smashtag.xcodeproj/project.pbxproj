@@ -18,6 +18,8 @@
 		4DC7B8561AF6B8B3004BBB9D /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8521AF6B8B3004BBB9D /* TwitterRequest.swift */; };
 		4DC7B8571AF6B8B3004BBB9D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8531AF6B8B3004BBB9D /* User.swift */; };
 		4DC7B8591AF6C124004BBB9D /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */; };
+		4DC7B85B1AF6CCF7004BBB9D /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7B85A1AF6CCF7004BBB9D /* TweetTableViewCell.swift */; };
+		4DF3CEED1B07DECF00FEC9C2 /* MentionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3CEEC1B07DECF00FEC9C2 /* MentionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		4DC7B8521AF6B8B3004BBB9D /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
 		4DC7B8531AF6B8B3004BBB9D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		4DC7B85A1AF6CCF7004BBB9D /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		4DF3CEEC1B07DECF00FEC9C2 /* MentionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +94,10 @@
 				4DC7B84F1AF6B8B3004BBB9D /* Twitter */,
 				4DC7B8281AF6B24E004BBB9D /* ViewController.swift */,
 				4DC7B82A1AF6B24E004BBB9D /* Main.storyboard */,
+				4DC7B85A1AF6CCF7004BBB9D /* TweetTableViewCell.swift */,
 				4DC7B8581AF6C124004BBB9D /* TweetTableViewController.swift */,
 				4DC7B8241AF6B24E004BBB9D /* Supporting Files */,
+				4DF3CEEC1B07DECF00FEC9C2 /* MentionsTableViewController.swift */,
 			);
 			path = Smashtag;
 			sourceTree = "<group>";
@@ -240,8 +246,10 @@
 				4DC7B8561AF6B8B3004BBB9D /* TwitterRequest.swift in Sources */,
 				4DC7B8571AF6B8B3004BBB9D /* User.swift in Sources */,
 				4DC7B8271AF6B24E004BBB9D /* AppDelegate.swift in Sources */,
+				4DF3CEED1B07DECF00FEC9C2 /* MentionsTableViewController.swift in Sources */,
 				4DC7B8541AF6B8B3004BBB9D /* MediaItem.swift in Sources */,
 				4DC7B8551AF6B8B3004BBB9D /* Tweet.swift in Sources */,
+				4DC7B85B1AF6CCF7004BBB9D /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 				4DC7B8421AF6B24E004BBB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC7B8431AF6B24E004BBB9D /* Build configuration list for PBXNativeTarget "SmashtagTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +454,7 @@
 				4DC7B8451AF6B24E004BBB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
